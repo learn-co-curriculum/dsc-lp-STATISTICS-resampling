@@ -53,7 +53,7 @@ Statistics / Resampling Methods
 
 * Students can perform an exact permutation test using python.
 * Students can perform a simulated permutation test using Monte Carlo simulations using python.
-* Students can perform one-sample and two-sample tests using bootstrap hypothesis testing. 
+* Students can perform one-sample tests using bootstrapping of samples. 
 
 #### Relevant learning goals from Airtable: 
 
@@ -65,20 +65,24 @@ Statistics / Resampling Methods
 
 #### Misconceptions / Notes
 
+Setting up one-sided vs two-sided tests can be confusing; spend time clarifying this when discussing the exact permutation test example.
 
 #### Materials
 - Ipython notebook 
 
 #### Vocab / Concepts 
+
 * permutation test
-* bootsrapping 
+* bootstrapping 
 
 #### Lesson Outline:
 
-* Brief into to resampling methods (< 5 minutes)
-* Exact permutation tests (10 minutes) 
+* Brief into to resampling methods (<5 minutes)
+* Exact permutation tests (15 minutes)
+    * Students should perform a two-sided test in this case. 
 * Monte Carlo Simulation of Permutation tests (15 minutes) 
-* Bootstrapping: One-sample test (10 minutes)
-* Bootstrapping: Two-sample test (15 minutes)
+    * It's important to motivate the need for sampling the permutation sample space: sometimes we don't have enough computing power to perform an exact permutation test. 
+* Bootstrapping: One-sample test (15 minutes)
 * Summary (5 minutes) 
 
+Wiggle room: 5 minutes

@@ -18,7 +18,7 @@ hidden: true
 
 #### Lesson Summary:
 
-The lesson starts by commenting on the assumptions that are needed when performing parametric statistical tests like t-tests to motivate the use of permutation tests, where the distribution of the test statistic under the null hypothesis is constructed rather than assumed. An exact permutation test is performed guiding students step by step along the way. This leads to a discussion on what happens when sample sizes are too large and there are too many permutations of the samples to consider. Monte Carlo simulations are used to sample from the permutation space in a coding exercise with starter code that students fill out. Next, students use bootstrap sampling to perform a one-sample and two-sample hypothesis test
+The lesson starts by commenting on the assumptions that are needed when performing parametric statistical tests like t-tests to motivate the use of permutation tests, where the distribution of the test statistic under the null hypothesis is constructed rather than assumed. An exact permutation test is performed guiding students step by step along the way. This leads to a discussion on what happens when sample sizes are too large and there are too many permutations of the samples to consider. Monte Carlo simulations are used to sample from the permutation space in a coding exercise with starter code that students fill out. Finally, students are introduced to bootstrap sampling and proceed to use bootstrap samples to perform a one-sample test. 
 
 #### Topic:
 
